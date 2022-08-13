@@ -1,0 +1,14 @@
+<div class="header">
+      <a class="active" href="">Home</a>
+      <a href="about.html">About us</a>
+      <a href="servers.html">Our Servers</a>
+      <div class="header-right">
+        <div class="input-icons">
+          <i class="fa fa-search icon"></i>
+          <input class="input-field" type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+
+
+    <span class="ui-button-icon-left ui-icon ui-c fa fa-search-plus white"></span>
