@@ -1,0 +1,125 @@
+header{
+    overflow: hidden;
+    background-color: #131212;
+    padding: 20px 10px;
+    display: block;
+    width: 97%;
+    z-index: -1;
+    margin: 1px;
+}
+
+header a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+header a:hover{
+    background-color: black;
+    color: white;
+}
+
+header a.active{
+    background-color: dodgerblue;
+    color:white;
+}
+
+
+header input[type=text]{
+    float:right;
+    padding: 6px;
+    border: none;
+    background-color: #131212;
+    color: white;
+    text-align:center;
+}
+
+header i{
+    margin: 5px 908px;
+    position: absolute;
+    float:right;
+    color:black;
+}
+
+footer{
+    overflow: hidden;
+    background-color: #131212;
+    padding: 20px 10px;
+    position: fixed;
+    width: 97%;
+    height: 10%;
+    bottom: 5px;
+    display: block;
+    text-align: center;    
+}
+
+footer a{
+    float:left;
+    text-decoration: none;
+    margin: 60px 1px;
+    color: white;
+}
+
+footer a:hover{
+    color: black;
+}
+
+table{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #D2ECFB;
+}
+
+td{
+    border: 1px solid #C3CCD5;
+    height: 10px;
+    width: 80px;
+}
+
+th{
+    background-color: #557159;
+    height: 70px;
+}
+
+td a{
+    color: #557159;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+td a.last:hover{
+    background-color: blue;
+}
+
+td a.last{
+    border-radius: 5px;
+    background-color: #557159;
+    color: white;
+    padding: 6px;
+}
+
+th a{
+    border-radius: 3px;
+    background-color: #F7941E;
+    color: white;
+    font:smaller;
+    text-decoration: none;
+    padding: 6px 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+body{
+    background-color: lightslategray;
+}

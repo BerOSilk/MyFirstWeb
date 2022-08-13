@@ -1,0 +1,85 @@
+p{
+  color: white;
+}
+
+header {
+  overflow: hidden;
+  background-color: #131212;
+  padding: 20px 10px;
+  display: block;
+  width: 97%;
+  z-index: -1;
+  margin: 1px;
+}
+
+footer{
+  overflow: hidden;
+  background-color: #131212;
+  padding: 20px 10px;
+  position: fixed;
+  width: 97%;
+  bottom: 5px;
+  display: block;
+  text-align: center;
+  position: fixed;
+}
+
+footer a{
+  float: left;
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover{
+  color: black;
+}
+
+header a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+}
+
+
+header a:hover{
+  background-color: black;
+  color: white;
+}
+
+header a.active{
+  background-color: dodgerblue;
+  color:white;
+}
+
+body{
+  background-color:#040418;
+  background-image: url('C:/Users/الامير للكمبيوتر/OneDrive/سطح المكتب/Bara/New folder/HTML/180601-atomi-mn-1540_f415a90a9f0fcbddc7dfa4cc7b5a36c3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+header input[type=text]{
+  float: right;
+  padding: 6px;
+  border: none;
+  background-color: #131212;
+  color: white;
+  text-align:center;
+}
+
+
+header input[type=submit]:hover{
+  background-color: black;
+}
+
+i{
+  margin: 5px 908px;
+  position: absolute;
+  float:right;
+  color:white;
+}
+
